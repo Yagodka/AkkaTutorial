@@ -1,6 +1,7 @@
 package edu.yagodka.ch244;
 
-import akka.actor.UntypedActor;
+import akka.actor.*;
+import scala.Function1;
 
 class EchoActor extends UntypedActor{
     @Override
@@ -11,7 +12,9 @@ class EchoActor extends UntypedActor{
     @Override
     public void preStart() throws Exception {
         super.preStart();
-        System.out.println("Prestart" + self());
-        throw new Exception();
+        System.out.println("Prestart " + self());
+        System.out.println("Parrent " +  context().parent());
+
+        throw new Exception("");
     }
 }
