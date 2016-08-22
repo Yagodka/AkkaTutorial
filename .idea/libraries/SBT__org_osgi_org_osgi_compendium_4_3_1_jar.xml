@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.osgi:org.osgi.compendium:4.3.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.osgi/org.osgi.compendium/jars/org.osgi.compendium-4.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.osgi/org.osgi.compendium/docs/org.osgi.compendium-4.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.osgi/org.osgi.compendium/srcs/org.osgi.compendium-4.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
